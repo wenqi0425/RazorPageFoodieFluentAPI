@@ -11,7 +11,7 @@ namespace RazorPageFoodie.Models
         public int RecipeID { get; set; }
 
         [Required]
-        [Display(Name = "Recipe:")]
+        [Display(Name = "Recipe Name:")]
         public string Name { get; set; }
 
         [Required]
@@ -21,6 +21,7 @@ namespace RazorPageFoodie.Models
         [Display(Name = "Introduction:")]
         public string? Introduction { get; set; }
 
+        [Display(Name = "Recipe Image:")]
         public byte[]? ImageData { get; set; }
 
         [ForeignKey("AppUser")]
