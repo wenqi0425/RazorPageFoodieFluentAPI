@@ -37,21 +37,21 @@ namespace RazorPageFoodie.Data
                     new Ingredient
                     {
                         IngrediantName = "Shiitake Mushroom",
-                        Introduction = "Shiitake are rich in polysaccharides like lentinans and other beta-glucans. These compounds protect against cell damage, help your immune system, and boost white blood cell production for fighting off microbes. Polysaccharides also have anti-inflammatory properties."
+                        Introduction = "Shiitake are rich in polysaccharides like lentinans and other beta-glucans. These compounds protect against cell damage, help your immune system, and boost white blood cell production for fighting off microbes. Polysaccharides also have anti-inflammatory properties.",
                         ImageData = { }
                     },
 
                     new Ingredient
                     {
                         IngrediantName = "Tofu",
-                        Introduction = "Tofu is a food prepared by coagulating soy milk and then pressing the resulting curds into solid white blocks of varying softness; it can be silken, soft, firm, extra firm or super firm. Beyond these broad textural categories, there are many varieties of tofu. It has a subtle flavor, so it can be used in savory and sweet dishes. It is often seasoned or marinated to suit the dish and its flavors, and due to its spongy texture, it absorbs flavors well."
+                        Introduction = "Tofu is a food prepared by coagulating soy milk and then pressing the resulting curds into solid white blocks of varying softness; it can be silken, soft, firm, extra firm or super firm. Beyond these broad textural categories, there are many varieties of tofu. It has a subtle flavor, so it can be used in savory and sweet dishes. It is often seasoned or marinated to suit the dish and its flavors, and due to its spongy texture, it absorbs flavors well.",
                         ImageData = { }
                     },
 
                     new Ingredient
                     {
                         IngrediantName = "Wax gourd",
-                        Introduction = "Wax gourd is also commonly called ash gourd, winter melon, white gourd, and winter gourd. It is a member of the gourd family (Cucurbitaceae), commonly referred to as cucurbits, which includes cucumbers, melons, zucchini, pumpkins, and other squash."
+                        Introduction = "Wax gourd is also commonly called ash gourd, winter melon, white gourd, and winter gourd. It is a member of the gourd family (Cucurbitaceae), commonly referred to as cucurbits, which includes cucumbers, melons, zucchini, pumpkins, and other squash.",
                         ImageData = { }
                     }
                 );
