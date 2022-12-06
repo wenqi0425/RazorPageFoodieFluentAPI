@@ -6,7 +6,8 @@
 
 <h1>Create</h1>
 
-<h4>Ingredient</h4>
+<h4>Ingredient </h4> 
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -19,7 +20,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Introduction" class="control-label"></label>
-                <input asp-for="Introduction" class="form-control" />
+                <textarea asp-for="Introduction" class="form-control" cols=40 rows=8 /></textarea>
                 <span asp-validation-for="Introduction" class="text-danger"></span>
             </div>
             <div class="form-group">
