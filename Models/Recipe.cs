@@ -8,7 +8,7 @@ namespace RazorPageFoodie.Models
     public class Recipe
     {
         [Key]
-        public int RecipeID { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [Display(Name = "Recipe Name:")]
