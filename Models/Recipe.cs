@@ -24,8 +24,8 @@ namespace RazorPageFoodie.Models
         [Display(Name = "Recipe Image:")]
         public byte[]? ImageData { get; set; }
 
-        //[ForeignKey("AppUser")]
-        //public int AppUserId { get; set; }
+        [ForeignKey("AppUser")]
+        public int AppUserId { get; set; }
 
         // Navigation Properties
         //public AppUser AppUser { get; set; }
