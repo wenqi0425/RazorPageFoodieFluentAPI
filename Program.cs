@@ -18,6 +18,7 @@ namespace RazorPageFoodie
         public static void Main(string[] args)
         {
            var host = CreateHostBuilder(args).Build();
+            /*
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
@@ -31,7 +32,7 @@ namespace RazorPageFoodie
                     var logger = services.GetRequiredService<ILogger<Program>>();
                     logger.LogError(ex, "An error occured while attempting to seed the database");
                 }
-            }
+            }*/
 
             host.Run();
         }

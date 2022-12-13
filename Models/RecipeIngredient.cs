@@ -4,23 +4,21 @@ using System.Xml.Linq;
 
 namespace RazorPageFoodie.Models
 {
-    public class RecipeItem
+    public class RecipeIngredient
     {
-        [Key]
-        public int Id { get; set; }
+        // Mapping composite keys
+        [Column(Order = 0), Key, ForeignKey("Recipe")]
+        public int RecipeId { get; set; }
 
-        [Required]
-        [Display(Name = "Ingrediant:")]
-        public string Name { get; set; }
+        [Column(Order = 1), Key, ForeignKey("Ingredient")]
+        public int IngredientId { get; set; }
 
         [Required]
         [Display(Name = "Amount:")]
         public string Amount { get; set; }
 
-        [ForeignKey("Recipe")]
-        public int RecipeID { get; set; }
-
         // Navigation Properties
         public Recipe Recipe { get; set; }
+        public Ingredient Ingredient { get; set; }
     }
 }

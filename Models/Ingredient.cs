@@ -11,10 +11,10 @@ namespace RazorPageFoodie.Models
 
         [Required]
         [Display(Name = "Name:")]
-        public string IngrediantName { get; set; }
+        public string Name { get; set; }
 
-        [Display(Name = "Introduction:")]
-        public string? Introduction { get; set; }
+        [Display(Name = "Description:")]
+        public string? Description { get; set; }
         
         [Display(Name = "Image:")]
         public byte[]? ImageData { get; set; }
